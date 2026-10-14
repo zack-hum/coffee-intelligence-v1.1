@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest a feature, data source, or origin
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Who is it for (roaster, importer, green buyer, café, traveler) and what are they trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed solution
+  - type: textarea
+    id: source
+    attributes:
+      label: Data source (if any)
+      description: Link to the source, whether it is free, whether it needs a key, and its terms of use.

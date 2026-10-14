@@ -1,0 +1,35 @@
+[project]
+name = "coffee-origin-monitor"
+version = "1.1.0"
+description = "Specialty coffee market and origin intelligence: live futures and FX, multilingual news, supply data and origin weather, from free sources."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+keywords = ["coffee", "commodities", "supply-chain", "news-aggregator", "fastapi"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: FastAPI",
+    "Topic :: Office/Business :: Financial",
+]
+# Runtime dependencies are pinned in requirements.txt (Cloud Run image) and
+# requirements-local.txt (local dev and tests); this file holds tool config.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+extend-exclude = ["app/static"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = [
+    "E501",   # long lines: config tables read better unwrapped
+    "E741",   # `l` for low in OHLC bars
+    "B905",   # zip() over parallel lists built from the same config
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]

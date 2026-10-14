@@ -1,0 +1,14 @@
+.gcloudignore
+.git/
+.github/
+.gitignore
+.env
+.env.*
+data/
+.venv/
+tests/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.db
+*.db-*

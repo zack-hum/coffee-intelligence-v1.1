@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coffee Origin Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="/static/lightweight-charts.standalone.production.js"></script>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<nav class="top">
+  <div class="wrap navrow">
+    <a class="brand" href="#/">Coffee <span>Origin</span> Monitor</a>
+    <div class="links" id="nav">
+      <a href="#/">Overview</a>
+      <a href="#/costa-rica" class="feat">🇨🇷 Costa Rica</a>
+      <a href="#/news">News</a>
+      <a href="#/origins">Origins</a>
+      <a href="#/data">Data</a>
+      <a href="#/sources">Sources</a>
+      <a href="#/dev" id="devlink" hidden>Dev</a>
+    </div>
+    <div class="status" id="status"></div>
+  </div>
+</nav>
+<main class="wrap" id="view"></main>
+<footer class="wrap">
+  Futures &amp; FX: Yahoo Finance (unofficial, delayed 10–20 min). News: publisher RSS, Google News RSS, GDELT — headlines and short excerpts only; read the full story at the source.
+  Data: CFTC, IMF via FRED, US Census, NOAA, Open-Meteo, USDA FAS. Signals are keyword heuristics, not trading advice.
+</footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

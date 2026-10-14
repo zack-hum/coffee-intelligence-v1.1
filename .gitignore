@@ -1,0 +1,32 @@
+# Secrets and local settings (.env.example is the committed template)
+.env
+.env.*
+!.env.example
+
+# Local archives (SQLite, created by demo/live mode)
+data/
+*.db
+*.db-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
