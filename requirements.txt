@@ -1,6 +1,6 @@
-fastapi==0.115.*
-uvicorn[standard]==0.32.*
-httpx==0.27.*
+fastapi==0.143.*
+uvicorn[standard]==0.54.*
+httpx==0.28.*
 feedparser==6.0.*
 tzdata  # IANA time zones for zoneinfo; Windows has no system database
 google-cloud-firestore==2.*
