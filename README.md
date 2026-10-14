@@ -1,12 +1,14 @@
-# Coffee Origin Monitor
+# coffee-intelligence-v1.1
 
-[![CI](https://github.com/<owner>/coffee-intelligence-v1.1/actions/workflows/ci.yml/badge.svg)](https://github.com/<owner>/coffee-intelligence-v1.1/actions/workflows/ci.yml)
+[![CI](https://github.com/zack-hum/coffee-intelligence-v1.1/actions/workflows/ci.yml/badge.svg)](https://github.com/zack-hum/coffee-intelligence-v1.1/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 
-Open-source market and origin intelligence for specialty coffee. It brings together live arabica futures and origin currencies, a multilingual archive of coffee news, supply and trade datasets, and growing-region weather for 18 producing countries, all from free sources. **Costa Rica** has a featured page for sourcing-trip planning.
+Global coffee supply chain intelligence platform for tracking specialty and commodity coffee markets, origin-level trends, news, and supply chain data. Ability to be customized for roasters, green buyers, importers/exporters, cafes, etc.
 
-It's built for people who buy and sell green coffee: roasters, importers, green buyers and cafés. It runs on a laptop in a minute, with no API keys needed to try it.
+Data streams, APIs, newsletters, and sources are all free- paid subscriptions would quickly improve product quality.
+
+Dedicated Costa Rica tab because of my upcoming personal trip ;)
 
 ## Features
 
