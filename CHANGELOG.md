@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+- Development process (`docs/DEVELOPMENT.md`): proposal → approval → pull request flow, versioning and rollback guide.
+- Agent operating files: `CLAUDE.md`, `ROADMAP.md`, `agent/` (research notes, competitor tracker, run log).
+
 ## [1.1.0] - 2026-10-12
 
 First public release.

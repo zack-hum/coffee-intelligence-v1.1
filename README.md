@@ -148,7 +148,7 @@ Ideas under consideration: landed-cost calculator, producer and cupping log, ori
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, tests and the rules for adding data sources, and the [Code of Conduct](CODE_OF_CONDUCT.md). Report security issues privately as described in [SECURITY.md](SECURITY.md).
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, tests and the rules for adding data sources, and the [Code of Conduct](CODE_OF_CONDUCT.md). Report security issues privately as described in [SECURITY.md](SECURITY.md). How changes are proposed, approved, versioned and rolled back is in [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
 
 ## License
 

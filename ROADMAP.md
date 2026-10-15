@@ -1,13 +1,22 @@
 # Roadmap
 
-Maintained by the agent (see `CLAUDE.md`). Z can edit freely — reorder, delete, or add items.
-Each item: one line, small enough to ship in one run; link research notes where relevant.
+Priority order for ideas. An item here is **not** approved work: the agent turns items into
+`proposal` issues, and only issues Z labels `approved` get built (see `docs/DEVELOPMENT.md`).
+Z can reorder, delete or add items in a PR or by commenting on any issue.
 
 ## Now (top = next)
 
+Z's core jobs (2026-10-15): find & vet suppliers · log visits & cuppings · price & negotiate ·
+market research · data tracking · CRM. Trip Jan 4–17, 2027; phone + laptop; scout + broker.
+
+- [ ] Sourcing CRM: producers, mills, exporters, buyers, contacts, interactions, follow-ups, samples.
+- [ ] Field mode: mobile-friendly visit & cupping log (SCA-style scores, notes, photos) that works offline and syncs.
+- [ ] Free hosting before the trip so Z can reach it from his phone in Costa Rica (with auth).
+- [ ] Segment research: what roasters (solo → enterprise), importers/exporters and cafes need and do in sourcing operations; where workflows overlap.
+- [ ] Propose a first draft of `docs/STRATEGY.md`: shared sourcing core + segment layers (Z reviews and approves).
 - [ ] Costa Rica trip mode: turn the trip planner into a practical field guide — per-region
       farm/mill/cooperative visit list, harvest status during trip dates, what to ask producers,
-      price-check calculator presets (USD/lb FOB ↔ ₡/fanega ↔ ₡/kg). *Waiting on trip dates — see QUESTIONS.*
+      price-check calculator presets (USD/lb FOB ↔ ₡/fanega ↔ ₡/kg). Trip: Jan 4–17, 2027 (sourcing mission).
 - [ ] Competitor & adjacent-software landscape: first full pass into `agent/COMPETITORS.md`.
 - [ ] Source health: audit every feed in `app/config.py`, replace dead ones with working free alternatives.
 - [ ] Differentials: add a reference table of typical specialty differentials by origin/grade
