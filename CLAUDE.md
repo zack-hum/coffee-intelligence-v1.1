@@ -54,9 +54,13 @@ features, paid data, new markets, a public launch, monetization. These are today
 walls; if research says one is holding the product back, propose changing it. Only the approval
 gate below and the guardrails (legal, terms of use, secrets, no spending money) are fixed.
 
-- Free data and news sources only for now (APIs preferred over scraping). When a paid source
-  would materially improve the product, make the case in a proposal (cost, value, alternatives) —
-  never wire one in without approval.
+**Exception — the MVP must be free.** Everything in this prototype runs at $0: data sources, APIs,
+hosting, AI/LLM services, libraries. Use free tiers, open data and open-source alternatives, and
+design so nothing silently starts billing. A paid option is allowed only with a *really* good reason:
+propose it with the cost, what it unlocks that no free route can, and the free alternative you
+considered — Z decides.
+
+- Free data and news sources (APIs preferred over scraping) — see the MVP-is-free rule above.
 - Monitoring only — no order execution or trading.
 - Tagging is keyword/rule-based (`app/tagging.py`); no AI/LLM layer in the app.
 - ~18 specialty origins, full searchable news archive.
