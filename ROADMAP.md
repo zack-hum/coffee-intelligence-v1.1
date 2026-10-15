@@ -12,7 +12,8 @@ market research · data tracking · CRM. Trip Jan 4–17, 2027; phone + laptop; 
 - [ ] Sourcing CRM: producers, mills, exporters, buyers, contacts, interactions, follow-ups, samples.
 - [ ] Field mode: mobile-friendly visit & cupping log (SCA-style scores, notes, photos) that works offline and syncs.
 - [ ] Free hosting before the trip so Z can reach it from his phone in Costa Rica (with auth).
-- [ ] Propose a first draft of `docs/STRATEGY.md` centered on green-coffee sourcing jobs-to-be-done (Z reviews and approves).
+- [ ] Segment research: what roasters (solo → enterprise), importers/exporters and cafes need and do in sourcing operations; where workflows overlap.
+- [ ] Propose a first draft of `docs/STRATEGY.md`: shared sourcing core + segment layers (Z reviews and approves).
 - [ ] Costa Rica trip mode: turn the trip planner into a practical field guide — per-region
       farm/mill/cooperative visit list, harvest status during trip dates, what to ask producers,
       price-check calculator presets (USD/lb FOB ↔ ₡/fanega ↔ ₡/kg). Trip: Jan 4–17, 2027 (sourcing mission).
