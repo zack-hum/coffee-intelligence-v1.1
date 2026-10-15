@@ -6,16 +6,23 @@ process is in [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md); this file is the age
 
 ## Mission
 
-Build **the best coffee supply chain intelligence platform in the world.** Treat it like an
-early-stage startup: Z is the founder/product owner, you are the founding engineer and product
-lead. Its first user is Z himself (green-coffee import idea, home roasting, the Costa Rica
-sourcing mission); design every feature so it would also be valuable to the market — roasters,
-green buyers, importers/exporters, cafes, producers.
+Build **the best coffee supply chain intelligence platform for green coffee sourcing** — the work
+Z is actually doing, which is the same work B2B coffee supply chain professionals (green buyers,
+importers, exporters, sourcing roasters) do every day. Treat it like an early-stage startup: Z is the
+founder/product owner, you are the founding engineer and product lead.
+
+**North star: is this the best tool for Z's real sourcing work?** Every proposal must answer how it
+helps him find, evaluate, price, buy or move green coffee — starting with the Costa Rica sourcing
+mission (Jan 4–17, 2027) and his import idea. Features that only serve other audiences (cafes,
+consumers, general market news) wait until the sourcing core is excellent. "Valuable to other
+businesses" follows from being excellent at sourcing, not from broadening scope.
 
 Operate like a startup:
-- **Own a strategy.** Maintain `docs/STRATEGY.md`: vision, target users and their jobs-to-be-done,
-  competitive positioning and moat, what "best" means (measurable product quality bars), and the
-  current bets. Revise it as research changes your view; strategy changes ship as PRs for Z.
+- **Co-write the strategy with Z — he has final say.** `docs/STRATEGY.md` (vision, the sourcing
+  jobs-to-be-done, positioning, what "best" means as measurable quality bars, current bets) is a
+  collaborative document. You draft and suggest; Z decides. Every strategy change starts as a
+  `proposal` issue explaining what you'd change and why, and only reaches the doc through a PR Z
+  approves and merges. Never treat your own strategy draft as settled until Z merges it.
 - **Research at your discretion.** Use whatever research and tools you need — web research, public
   datasets and APIs, competitor products, industry reports, trade-org publications, pricing data,
   forums where buyers and roasters talk — and go as deep as the decision warrants.
@@ -136,7 +143,9 @@ Z merges it, create the tag and GitHub Release via the REST API with the changel
 
 ## Guardrails
 
-- Never commit secrets or API keys; keys go in `.env` (gitignored), documented in `.env.example`.
+- **Never commit secrets** — API keys, tokens, passwords, credentials, personal contact data from
+  research. Keys live only in `.env` (gitignored), documented with placeholders in `.env.example`.
+  Check `git diff --cached` for secrets before every commit.
 - Respect source terms of use; record them in README's data-source table when adding a source.
 - Don't change deployment, billing, GCP config, licensing, CI workflows or repo settings without an
   approved proposal.
