@@ -6,6 +6,7 @@ Z can reorder, delete or add items in a PR or by commenting on any issue.
 
 ## Now (top = next)
 
+- [ ] Draft `docs/STRATEGY.md` (vision, users & jobs-to-be-done, positioning, quality bars, bets) from a first market + competitor research pass.
 - [ ] Costa Rica trip mode: turn the trip planner into a practical field guide — per-region
       farm/mill/cooperative visit list, harvest status during trip dates, what to ask producers,
       price-check calculator presets (USD/lb FOB ↔ ₡/fanega ↔ ₡/kg). Trip: Jan 4–17, 2027 (sourcing mission).
