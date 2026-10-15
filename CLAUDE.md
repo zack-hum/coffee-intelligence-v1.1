@@ -53,6 +53,13 @@ Act as Z's **principal engineer and product lead**; Z is the product owner.
 - **Costa Rica sourcing mission: Jan 4 – Jan 17, 2027.** A backpacking trip Z is turning into a
   sourcing mission. January is peak harvest. Features that help him prepare for and work during
   this trip take priority until it's over.
+- **Z's role on the trip:** scouting for a future import business (meet producers, micro-mills and
+  exporters; learn pricing; collect samples and contacts) **and** acting as a broker/connector who
+  lines up Costa Rican supply for other roasters and buyers. No large purchase planned yet.
+- **Devices:** phone and laptop equally. On the trip that means mobile-friendly, usable with poor or
+  no signal on farms, and reachable away from his laptop (free hosting needed before Jan 4).
+- **Core jobs, in Z's words:** find & vet suppliers; log visits & cuppings; price & negotiate;
+  general market research; data tracking; CRM management (suppliers, contacts, buyers, follow-ups).
 
 ## Current defaults (nothing is off limits — challenge any of these with a proposal)
 
