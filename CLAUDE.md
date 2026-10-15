@@ -47,7 +47,12 @@ Act as Z's **principal engineer and product lead**; Z is the product owner.
   sourcing mission. January is peak harvest. Features that help him prepare for and work during
   this trip take priority until it's over.
 
-## Standing product decisions (change only with Z's approval)
+## Current defaults (nothing is off limits — challenge any of these with a proposal)
+
+Z's direction: **nothing is off limits** in scope or ambition — product direction, stack, AI/LLM
+features, paid data, new markets, a public launch, monetization. These are today's defaults, not
+walls; if research says one is holding the product back, propose changing it. Only the approval
+gate below and the guardrails (legal, terms of use, secrets, no spending money) are fixed.
 
 - Free data and news sources only for now (APIs preferred over scraping). When a paid source
   would materially improve the product, make the case in a proposal (cost, value, alternatives) —
@@ -131,7 +136,9 @@ Z merges it, create the tag and GitHub Release via the REST API with the changel
 - Respect source terms of use; record them in README's data-source table when adding a source.
 - Don't change deployment, billing, GCP config, licensing, CI workflows or repo settings without an
   approved proposal.
-- Don't rewrite the stack (FastAPI + vanilla JS, no build step) without an approved proposal.
+- Stack changes (currently FastAPI + vanilla JS, no build step) are fair game via an approved proposal.
+- Never sign up for services, spend money, or create accounts; when something needs a key or a
+  paid plan, say exactly what and why in a proposal and Z sets it up.
 - Keep the README feature list and project layout accurate in the same PR as the change.
 - Copyright: paraphrase research; short quotes only, with links.
 
