@@ -1,5 +1,11 @@
 # Run log (newest first)
 
+## 2026-10-16 (2) — segment sourcing workflows
+- Orient: PR #7 still unmerged → followed its CLAUDE.md/DEVELOPMENT.md. No `approved` labels, no new answers or review comments on #7–#13. Nothing built (nothing approved). ruff + pytest green.
+- Research: how roasters (small/large), importers/exporters and cafes source → `agent/research/2026-10-16-segment-sourcing-workflows.md`. Shared core = supplier records + sample/cupping log with feedback + price context + follow-ups — matches #8/#9/#10. Recommends small-to-mid roasters as first segment (commented on #11).
+- Proposals: none new (5 open, at cap). Queued ideas: substitute-origin view, contract/release tracker, EUDR fields on #8. Questions: none.
+- Next research: Costa Rica sourcing specifics (micro-mills, exporter licensing/ICAFE, harvest by region).
+
 ## 2026-10-16 — free hosting research
 - Orient: PR #7 (workflow) still unmerged → followed its CLAUDE.md/DEVELOPMENT.md. No approvals, answers or review comments on #7–#12; CI green on #7 and #12. Nothing built (nothing approved).
 - Research: free hosting before Jan 4 → `agent/research/2026-10-16-free-hosting.md`. Finding: current Cloud Run path needs a card and news */15 uses ~96% of free vCPU; card-free alternative is Render Free + Firestore on Firebase Spark + GitHub Actions cron, with near-zero app code.
