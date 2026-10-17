@@ -54,7 +54,7 @@ a producer share of ~74% of export value before the mill's and exporter's costs.
 - **EUDR:** Costa Rica is seen as well-placed (detailed land-use records, strong environmental
   protection) but traceability work is still ongoing; it is not one of the countries with an
   Enveritas territorial agreement. EU application dates have moved more than once — as far as we
-  know the current timetable starts with large operators from 30 Dec 2026 and smaller ones in 2027;
+  know the current timetable starts with large/medium operators from 30 Dec 2026 and micro/small from 30 Jun 2027 (see our 2026-10-16 segment note);
   re-check before relying on it. Relevant mainly if Z brokers to EU roasters. [StoneX, 2026-07-28;
   Algrano, 2024-04-24; DCN]
 
