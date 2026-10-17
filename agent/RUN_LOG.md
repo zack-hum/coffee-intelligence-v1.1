@@ -1,5 +1,11 @@
 # Run log (newest first)
 
+## 2026-10-17 — Costa Rica sourcing specifics
+- Orient: PR #7 still unmerged → followed its CLAUDE.md/DEVELOPMENT.md. No `approved` labels, no answers or review comments from Z on #7–#13; CI green on #12. Nothing built (nothing approved). ruff + pytest green on main.
+- Research: how CR coffee is bought, priced and moved (ICAFE rules, liquidación, micro-mills, exporters, colón, 2026/27 outlook, EUDR) → `agent/research/2026-10-17-costa-rica-sourcing-specifics.md`, incl. a visit question list for the trip.
+- Key finding: 2026/27 farmgate projected ₡83–99k/fanega, below cost; colón strength matters as much as C price. Suggested farmgate-vs-FOB view on #9 and CR-specific fields on #8 (comments, no new proposals — 5 open, at cap). Questions: none.
+- Next research: free FX + ICAFE data sources (BCCR exchange-rate API, ICAFE published prices) to back #9.
+
 ## 2026-10-16 (2) — segment sourcing workflows
 - Orient: PR #7 still unmerged → followed its CLAUDE.md/DEVELOPMENT.md. No `approved` labels, no new answers or review comments on #7–#13. Nothing built (nothing approved). ruff + pytest green.
 - Research: how roasters (small/large), importers/exporters and cafes source → `agent/research/2026-10-16-segment-sourcing-workflows.md`. Shared core = supplier records + sample/cupping log with feedback + price context + follow-ups — matches #8/#9/#10. Recommends small-to-mid roasters as first segment (commented on #11).
